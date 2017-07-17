@@ -90,7 +90,7 @@ Please note that right now this 'feature' is not integrated with the "accelerate
 
 ### The `g:easytags_languages` option
 
-Exuberant Ctags supports many languages and can be extended via regular expression patterns, but for some languages separate tools with ctags-compatible output exist (e.g. [jsctags] [jsctags] for Javascript). To use these, the executable and its arguments must be configured:
+Exuberant Ctags supports many languages and can be extended via regular expression patterns, but for some languages separate tools with ctags-compatible output exist (e.g. [jsctags] for Javascript). To use these, the executable and its arguments must be configured:
 
     let g:easytags_languages = {
     \   'language': {
